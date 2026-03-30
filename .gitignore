@@ -1,5 +1,12 @@
+# Ignore build output
 target/
-	*.class
-	*.log
-	.idea/
-	*.iml
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
